@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Interactive CLI tool to backup and restore Storyblok CMS spaces. Wraps the `storyblok-backup` and `storyblok-restore` npm packages with a `@clack/prompts` interface.
+Interactive CLI tool to backup and restore Storyblok CMS spaces. Wraps the `storyblok-backup` npm package with a `@clack/prompts` interface.
 
 ## Commands
 
@@ -20,8 +20,7 @@ Interactive CLI tool to backup and restore Storyblok CMS spaces. Wraps the `stor
 - **Entry point**: `cli.ts` — interactive CLI that prompts user to backup or restore (exposed as `bin` for npx)
 - **Runtime**: `tsx` (TypeScript execution without build step)
 - **Key dependencies**:
-    - `storyblok-backup` — backs up Storyblok space content (stories, datasources, components, etc.)
-    - `storyblok-restore` — restores backed-up content to a Storyblok space
+    - `storyblok-backup` — backs up and restores Storyblok space content (stories, datasources, components, etc.)
     - `zx` — shell scripting utility (imported via `zx/globals`)
     - `@clack/prompts` — interactive CLI prompts
 
