@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/jhoermann/storyblok-backup-cli/compare/v1.0.2...v1.0.3) (2026-02-03)
+
+
+### Bug Fixes
+
+* keep backup subfolder in restore path ([d3dc680](https://github.com/jhoermann/storyblok-backup-cli/commit/d3dc680470ec48b5c03bd18100b477bb0250b676))
+
 ## [1.0.2](https://github.com/jhoermann/storyblok-backup-cli/compare/v1.0.1...v1.0.2) (2026-02-03)
 
 ### Bug Fixes
