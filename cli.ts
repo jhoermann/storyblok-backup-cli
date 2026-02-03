@@ -93,8 +93,7 @@ const spacesMap = getSpacesMap(spaces)
 const additionalArgsRaw = await getAdditionalArgs()
 const passthroughArgs = parseArgs(additionalArgsRaw)
 
-const spacesEntries = [...spacesMap.entries()]
-for (const [spaceName, spaceId] of spacesEntries) {
+for (const [spaceName, spaceId] of spacesMap) {
     if (task === 'backup') {
         await backupSpace(token as string, spaceName, spaceId, passthroughArgs)
     } else {
