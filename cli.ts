@@ -1,6 +1,7 @@
 import { cancel, intro, isCancel, outro, select, text } from '@clack/prompts'
 import 'zx/globals'
-import 'dotenv/config'
+import dotenv from 'dotenv'
+dotenv.config({ quiet: true })
 import backupSpace from './commands/backup-space.js'
 import restoreSpace from './commands/restore-space.js'
 
