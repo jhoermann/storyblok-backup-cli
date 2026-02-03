@@ -2,13 +2,13 @@
     "name": "storyblok-backup-cli",
     "version": "1.0.0",
     "description": "Interactive CLI to backup and restore Storyblok CMS spaces with prompts, CLI flags, or environment variables",
-    "homepage": "https://github.com/jochenh/storyblok-backup-cli#readme",
+    "homepage": "https://github.com/jhoermann/storyblok-backup-cli#readme",
     "bugs": {
-        "url": "https://github.com/jochenh/storyblok-backup-cli/issues"
+        "url": "https://github.com/jhoermann/storyblok-backup-cli/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jochenh/storyblok-backup-cli.git"
+        "url": "git+https://github.com/jhoermann/storyblok-backup-cli.git"
     },
     "license": "MIT",
     "author": "Jochen Hörmann",
@@ -30,7 +30,7 @@
     ],
     "type": "module",
     "bin": {
-        "storyblok-backup-cli": "./bin.js"
+        "storyblok-backup-cli": "bin.js"
     },
     "scripts": {
         "start": "npx tsx cli.ts",
