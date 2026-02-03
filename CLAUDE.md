@@ -30,4 +30,4 @@ Interactive CLI tool to backup and restore Storyblok CMS spaces. Wraps the `stor
 
 ## Hosting
 
-- GitHub: `github.com/jochenh/storyblok-backup-cli`
+- GitHub: `github.com/jhoermann/storyblok-backup-cli`
