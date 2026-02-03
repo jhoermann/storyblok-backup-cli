@@ -31,7 +31,7 @@ const getJsonFiles = (dirPath: string): string[] => {
 }
 
 export default async (token: string, spaceName: string, spaceId: string, passthroughArgs: string[] = []) => {
-    const backupDir = path.join('.', 'storyblok-backups', spaceName, 'backup')
+    const backupDir = path.join('.', 'storyblok-backups', spaceName)
     if (!fs.existsSync(backupDir)) {
         log.error(`Backup directory not found: ${backupDir}`)
         return
