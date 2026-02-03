@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/jhoermann/storyblok-backup-cli/compare/v1.0.0...v1.0.1) (2026-02-03)
+
+
+### Bug Fixes
+
+* update repository URLs to match GitHub location ([c7766e6](https://github.com/jhoermann/storyblok-backup-cli/commit/c7766e6c85050f907a9357a51aeb2608a7c0f08f))
+
 ## 1.0.0 (2026-02-02)
 
 ### Features
