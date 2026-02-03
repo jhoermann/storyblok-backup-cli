@@ -1,7 +1,7 @@
 {
     "name": "storyblok-backup-cli",
     "version": "1.0.1",
-    "description": "Interactive CLI to backup and restore Storyblok CMS spaces with prompts, CLI flags, or environment variables",
+    "description": "Interactive CLI to backup and restore Storyblok CMS spaces",
     "homepage": "https://github.com/jhoermann/storyblok-backup-cli#readme",
     "bugs": {
         "url": "https://github.com/jhoermann/storyblok-backup-cli/issues"
