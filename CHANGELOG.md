@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2](https://github.com/jhoermann/storyblok-backup-cli/compare/v1.0.1...v1.0.2) (2026-02-03)
+
+### Bug Fixes
+
+- write backup files directly to label folder ([a382349](https://github.com/jhoermann/storyblok-backup-cli/commit/a3823492cb86edbf266374592c67d98cd5aafefa))
+
 ## [1.0.1](https://github.com/jhoermann/storyblok-backup-cli/compare/v1.0.0...v1.0.1) (2026-02-03)
 
 ### Bug Fixes
