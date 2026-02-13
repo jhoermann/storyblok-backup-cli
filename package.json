@@ -40,7 +40,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@clack/prompts": "^1.0.0",
+        "@clack/prompts": "^1.0.1",
         "dotenv": "^17.2.4",
         "storyblok-backup": "^0.6.0",
         "tsx": "^4.21.0",
