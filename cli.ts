@@ -48,18 +48,18 @@ const getSpacesMap = (spaces: string): Map<string, string> =>
         spaces
             .split(',')
             .map(getSpaceEntry)
-            .filter((spaceEntry) => spaceEntry[0] && spaceEntry[1]),
+            .filter(([spaceName, spaceId]) => spaceName && spaceId),
     )
 const getSpaceEntry = (value: string): [string, string] => {
-    const space = value.split(':')
-    if (space.length >= 2 && space[0] && space[1]) {
-        return [space[0], space[1]]
+    const [spaceName, spaceId] = value.split(':')
+    if (spaceName && spaceId) {
+        return [spaceName, spaceId]
     }
-    if (space.length >= 2 && !space[0] && space[1]) {
-        return [space[1], space[1]]
+    if (spaceId) {
+        return [spaceId, spaceId]
     }
-    if (space.length === 1 && space[0]) {
-        return [space[0], space[0]]
+    if (spaceName) {
+        return [spaceName, spaceName]
     }
     return ['', '']
 }
